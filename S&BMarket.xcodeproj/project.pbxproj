@@ -3,27 +3,82 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2044E4C62509759300DA80BB /* CardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2044E4C52509759300DA80BB /* CardInfoViewController.swift */; };
+		20457D5B24EF07240043D8A8 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20457D5A24EF07240043D8A8 /* ItemsTableViewController.swift */; };
+		20457D5D24EF07560043D8A8 /* ItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20457D5C24EF07560043D8A8 /* ItemsCell.swift */; };
+		2045AA8C2506817F00506B15 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045AA8B2506817F00506B15 /* SearchViewController.swift */; };
+		2045AA8E2506E47200506B15 /* AlgoliaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045AA8D2506E47200506B15 /* AlgoliaService.swift */; };
+		2045E35524F419C100B5FD46 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045E35424F419C100B5FD46 /* Downloader.swift */; };
+		2046FC9224F5499C0031A3FA /* SupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046FC9124F5499C0031A3FA /* SupportFunctions.swift */; };
+		2046FC9424F56D170031A3FA /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046FC9324F56D170031A3FA /* ItemDetailsViewController.swift */; };
+		2046FC9624F5806B0031A3FA /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046FC9524F5806B0031A3FA /* ImagesCollectionViewCell.swift */; };
+		2046FC9824F5EBBD0031A3FA /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046FC9724F5EBBD0031A3FA /* Cart.swift */; };
+		204B726824F6A0BA006CDD18 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204B726724F6A0BA006CDD18 /* CartViewController.swift */; };
+		204BB05324FE60AE005C5689 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204BB05224FE60AE005C5689 /* EditProfileViewController.swift */; };
+		204BB05624FEE6B7005C5689 /* FullEditingProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204BB05524FEE6B7005C5689 /* FullEditingProfileViewController.swift */; };
+		204D48B1250819C6000631EC /* StripeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D48B0250819C6000631EC /* StripeClient.swift */; };
 		2053F9D024ED9FFD00305508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053F9CF24ED9FFD00305508 /* AppDelegate.swift */; };
-		2053F9D224ED9FFD00305508 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053F9D124ED9FFD00305508 /* SceneDelegate.swift */; };
-		2053F9D424ED9FFD00305508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053F9D324ED9FFD00305508 /* ViewController.swift */; };
+		2053F9D424ED9FFD00305508 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053F9D324ED9FFD00305508 /* HomeCollectionViewController.swift */; };
 		2053F9D724ED9FFD00305508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2053F9D524ED9FFD00305508 /* Main.storyboard */; };
 		2053F9D924EDA00100305508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2053F9D824EDA00100305508 /* Assets.xcassets */; };
 		2053F9DC24EDA00100305508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2053F9DA24EDA00100305508 /* LaunchScreen.storyboard */; };
+		2053F9E524EDA0BF00305508 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053F9E424EDA0BF00305508 /* Category.swift */; };
+		2053F9EA24EDA19D00305508 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053F9E924EDA19D00305508 /* HomeCell.swift */; };
+		2053F9EC24EDA30A00305508 /* FireBaseRefrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053F9EB24EDA30A00305508 /* FireBaseRefrences.swift */; };
+		2053F9EE24EDA32C00305508 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053F9ED24EDA32C00305508 /* Constants.swift */; };
+		2053F9F224EDA41E00305508 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2053F9F124EDA41E00305508 /* GoogleService-Info.plist */; };
+		2057BF8F24F8055700292442 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2057BF8E24F8055700292442 /* LoginViewController.swift */; };
+		2059C9E324EFFE000062A92D /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059C9E224EFFE000062A92D /* AddItemViewController.swift */; };
+		2059C9E524F06A2F0062A92D /* Rechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059C9E424F06A2F0062A92D /* Rechability.swift */; };
+		205DF89C24FDDD6800C18C4C /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205DF89B24FDDD6800C18C4C /* ProfileTableViewController.swift */; };
+		208FCC4B24EF132800C00D33 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208FCC4A24EF132800C00D33 /* Item.swift */; };
+		2092B45724FD18A300FE32C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2092B45624FD18A300FE32C7 /* User.swift */; };
+		20CDB03925007141006231F6 /* PurchasedItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CDB03825007141006231F6 /* PurchasedItemsTableViewController.swift */; };
+		54F224CAE515493123C1CE64 /* Pods_S_BMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BD91B897F82F402116D98C /* Pods_S_BMarket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2044E4C52509759300DA80BB /* CardInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoViewController.swift; sourceTree = "<group>"; };
+		20457D5A24EF07240043D8A8 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		20457D5C24EF07560043D8A8 /* ItemsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCell.swift; sourceTree = "<group>"; };
+		2045AA8B2506817F00506B15 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2045AA8D2506E47200506B15 /* AlgoliaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoliaService.swift; sourceTree = "<group>"; };
+		2045E35424F419C100B5FD46 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		2046B6A12501B6760031047C /* S&BMarket-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "S&BMarket-Bridging-Header.h"; sourceTree = "<group>"; };
+		2046FC9124F5499C0031A3FA /* SupportFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportFunctions.swift; sourceTree = "<group>"; };
+		2046FC9324F56D170031A3FA /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		2046FC9524F5806B0031A3FA /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		2046FC9724F5EBBD0031A3FA /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		204B726724F6A0BA006CDD18 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		204BB05224FE60AE005C5689 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		204BB05524FEE6B7005C5689 /* FullEditingProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullEditingProfileViewController.swift; sourceTree = "<group>"; };
+		204D48B0250819C6000631EC /* StripeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeClient.swift; sourceTree = "<group>"; };
 		2053F9CC24ED9FFD00305508 /* S&BMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "S&BMarket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2053F9CF24ED9FFD00305508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2053F9D124ED9FFD00305508 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2053F9D324ED9FFD00305508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2053F9D324ED9FFD00305508 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
 		2053F9D624ED9FFD00305508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2053F9D824EDA00100305508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2053F9DB24EDA00100305508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2053F9DD24EDA00100305508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2053F9E424EDA0BF00305508 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		2053F9E924EDA19D00305508 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		2053F9EB24EDA30A00305508 /* FireBaseRefrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseRefrences.swift; sourceTree = "<group>"; };
+		2053F9ED24EDA32C00305508 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2053F9F124EDA41E00305508 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2057BF8E24F8055700292442 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2059C9E224EFFE000062A92D /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		2059C9E424F06A2F0062A92D /* Rechability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rechability.swift; sourceTree = "<group>"; };
+		205DF89B24FDDD6800C18C4C /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		208FCC4A24EF132800C00D33 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2092B45624FD18A300FE32C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		20CDB03825007141006231F6 /* PurchasedItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedItemsTableViewController.swift; sourceTree = "<group>"; };
+		46BD91B897F82F402116D98C /* Pods_S_BMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S_BMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB587CCC29EC19FB2289429B /* Pods-S&BMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S&BMarket.debug.xcconfig"; path = "Target Support Files/Pods-S&BMarket/Pods-S&BMarket.debug.xcconfig"; sourceTree = "<group>"; };
+		FD46AA5643B7F1D95610E545 /* Pods-S&BMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S&BMarket.release.xcconfig"; path = "Target Support Files/Pods-S&BMarket/Pods-S&BMarket.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +86,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F224CAE515493123C1CE64 /* Pods_S_BMarket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		026AFC4087CAC576BFCEFB76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB587CCC29EC19FB2289429B /* Pods-S&BMarket.debug.xcconfig */,
+				FD46AA5643B7F1D95610E545 /* Pods-S&BMarket.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2044E4C42509756E00DA80BB /* Card Payment */ = {
+			isa = PBXGroup;
+			children = (
+				2044E4C52509759300DA80BB /* CardInfoViewController.swift */,
+			);
+			path = "Card Payment";
+			sourceTree = "<group>";
+		};
+		20457D5E24EF075E0043D8A8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2053F9E924EDA19D00305508 /* HomeCell.swift */,
+				2046FC9524F5806B0031A3FA /* ImagesCollectionViewCell.swift */,
+				20457D5C24EF07560043D8A8 /* ItemsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2045AA8A25067F4300506B15 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2045AA8B2506817F00506B15 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		2053F9C324ED9FFC00305508 = {
 			isa = PBXGroup;
 			children = (
 				2053F9CE24ED9FFD00305508 /* S&BMarket */,
 				2053F9CD24ED9FFD00305508 /* Products */,
+				026AFC4087CAC576BFCEFB76 /* Pods */,
+				8AED632A0469EDBC4122DB9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +150,78 @@
 			isa = PBXGroup;
 			children = (
 				2053F9CF24ED9FFD00305508 /* AppDelegate.swift */,
-				2053F9D124ED9FFD00305508 /* SceneDelegate.swift */,
-				2053F9D324ED9FFD00305508 /* ViewController.swift */,
-				2053F9D524ED9FFD00305508 /* Main.storyboard */,
+				2053F9E624EDA0D700305508 /* Model */,
+				2053F9E324EDA05600305508 /* Views */,
+				2053F9F024EDA36D00305508 /* Controllers */,
+				2053F9EF24EDA35800305508 /* Helpers */,
+				20457D5E24EF075E0043D8A8 /* Cells */,
 				2053F9D824EDA00100305508 /* Assets.xcassets */,
 				2053F9DA24EDA00100305508 /* LaunchScreen.storyboard */,
 				2053F9DD24EDA00100305508 /* Info.plist */,
+				2053F9F124EDA41E00305508 /* GoogleService-Info.plist */,
 			);
 			path = "S&BMarket";
+			sourceTree = "<group>";
+		};
+		2053F9E324EDA05600305508 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2053F9D524ED9FFD00305508 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2053F9E624EDA0D700305508 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2053F9E424EDA0BF00305508 /* Category.swift */,
+				2092B45624FD18A300FE32C7 /* User.swift */,
+				208FCC4A24EF132800C00D33 /* Item.swift */,
+				2046FC9724F5EBBD0031A3FA /* Cart.swift */,
+				2046B6A12501B6760031047C /* S&BMarket-Bridging-Header.h */,
+				2045AA8D2506E47200506B15 /* AlgoliaService.swift */,
+				204D48B0250819C6000631EC /* StripeClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2053F9EF24EDA35800305508 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2053F9EB24EDA30A00305508 /* FireBaseRefrences.swift */,
+				2053F9ED24EDA32C00305508 /* Constants.swift */,
+				2059C9E424F06A2F0062A92D /* Rechability.swift */,
+				2045E35424F419C100B5FD46 /* Downloader.swift */,
+				2046FC9124F5499C0031A3FA /* SupportFunctions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2053F9F024EDA36D00305508 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2044E4C42509756E00DA80BB /* Card Payment */,
+				2045AA8A25067F4300506B15 /* Search */,
+				2053F9D324ED9FFD00305508 /* HomeCollectionViewController.swift */,
+				2046FC9324F56D170031A3FA /* ItemDetailsViewController.swift */,
+				2059C9E224EFFE000062A92D /* AddItemViewController.swift */,
+				20457D5A24EF07240043D8A8 /* ItemsTableViewController.swift */,
+				204B726724F6A0BA006CDD18 /* CartViewController.swift */,
+				2057BF8E24F8055700292442 /* LoginViewController.swift */,
+				205DF89B24FDDD6800C18C4C /* ProfileTableViewController.swift */,
+				204BB05224FE60AE005C5689 /* EditProfileViewController.swift */,
+				204BB05524FEE6B7005C5689 /* FullEditingProfileViewController.swift */,
+				20CDB03825007141006231F6 /* PurchasedItemsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8AED632A0469EDBC4122DB9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46BD91B897F82F402116D98C /* Pods_S_BMarket.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2053F9E024EDA00100305508 /* Build configuration list for PBXNativeTarget "S&BMarket" */;
 			buildPhases = (
+				6ECC99C00C9C7E6B69DC23B5 /* [CP] Check Pods Manifest.lock */,
 				2053F9C824ED9FFD00305508 /* Sources */,
 				2053F9C924ED9FFD00305508 /* Frameworks */,
 				2053F9CA24ED9FFD00305508 /* Resources */,
+				3EF45F65309AD927B4EA8922 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +258,7 @@
 				TargetAttributes = {
 					2053F9CB24ED9FFD00305508 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -126,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2053F9DC24EDA00100305508 /* LaunchScreen.storyboard in Resources */,
+				2053F9F224EDA41E00305508 /* GoogleService-Info.plist in Resources */,
 				2053F9D924EDA00100305508 /* Assets.xcassets in Resources */,
 				2053F9D724ED9FFD00305508 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +294,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EF45F65309AD927B4EA8922 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-S&BMarket/Pods-S&BMarket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-S&BMarket/Pods-S&BMarket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-S&BMarket/Pods-S&BMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ECC99C00C9C7E6B69DC23B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-S&BMarket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2053F9C824ED9FFD00305508 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2053F9D424ED9FFD00305508 /* ViewController.swift in Sources */,
+				204BB05324FE60AE005C5689 /* EditProfileViewController.swift in Sources */,
+				205DF89C24FDDD6800C18C4C /* ProfileTableViewController.swift in Sources */,
+				2045AA8E2506E47200506B15 /* AlgoliaService.swift in Sources */,
+				2059C9E524F06A2F0062A92D /* Rechability.swift in Sources */,
+				208FCC4B24EF132800C00D33 /* Item.swift in Sources */,
+				2046FC9424F56D170031A3FA /* ItemDetailsViewController.swift in Sources */,
+				2053F9D424ED9FFD00305508 /* HomeCollectionViewController.swift in Sources */,
+				204BB05624FEE6B7005C5689 /* FullEditingProfileViewController.swift in Sources */,
+				2057BF8F24F8055700292442 /* LoginViewController.swift in Sources */,
+				2046FC9224F5499C0031A3FA /* SupportFunctions.swift in Sources */,
 				2053F9D024ED9FFD00305508 /* AppDelegate.swift in Sources */,
-				2053F9D224ED9FFD00305508 /* SceneDelegate.swift in Sources */,
+				2046FC9624F5806B0031A3FA /* ImagesCollectionViewCell.swift in Sources */,
+				2092B45724FD18A300FE32C7 /* User.swift in Sources */,
+				20457D5B24EF07240043D8A8 /* ItemsTableViewController.swift in Sources */,
+				2044E4C62509759300DA80BB /* CardInfoViewController.swift in Sources */,
+				2053F9EC24EDA30A00305508 /* FireBaseRefrences.swift in Sources */,
+				2053F9EE24EDA32C00305508 /* Constants.swift in Sources */,
+				2045E35524F419C100B5FD46 /* Downloader.swift in Sources */,
+				2046FC9824F5EBBD0031A3FA /* Cart.swift in Sources */,
+				20CDB03925007141006231F6 /* PurchasedItemsTableViewController.swift in Sources */,
+				2045AA8C2506817F00506B15 /* SearchViewController.swift in Sources */,
+				2053F9E524EDA0BF00305508 /* Category.swift in Sources */,
+				2053F9EA24EDA19D00305508 /* HomeCell.swift in Sources */,
+				20457D5D24EF07560043D8A8 /* ItemsCell.swift in Sources */,
+				204D48B1250819C6000631EC /* StripeClient.swift in Sources */,
+				204B726824F6A0BA006CDD18 /* CartViewController.swift in Sources */,
+				2059C9E324EFFE000062A92D /* AddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +396,7 @@
 		2053F9DE24EDA00100305508 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -229,6 +457,7 @@
 		2053F9DF24EDA00100305508 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -282,17 +511,21 @@
 		};
 		2053F9E124EDA00100305508 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB587CCC29EC19FB2289429B /* Pods-S&BMarket.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6GY6SSRWWX;
 				INFOPLIST_FILE = "S&BMarket/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Crypto.S-BMarket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "S&BMarket/Model/S&BMarket-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +533,20 @@
 		};
 		2053F9E224EDA00100305508 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD46AA5643B7F1D95610E545 /* Pods-S&BMarket.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6GY6SSRWWX;
 				INFOPLIST_FILE = "S&BMarket/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Crypto.S-BMarket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "S&BMarket/Model/S&BMarket-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
